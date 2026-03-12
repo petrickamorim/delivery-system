@@ -1,0 +1,53 @@
+# Build
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.mdf
+*.ldf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Test results
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+coverage.cobertura.xml
+
+# ASP.NET config
+appsettings.Development.json
+appsettings.Local.json
+
+# Node (caso tenha frontend depois)
+node_modules/
+
+# Docker
+docker-compose.override.yml
